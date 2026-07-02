@@ -1,2 +1,14 @@
-# atom
-KAMI clj-wgsl migration Phase 4 home (ADR-2607010930) — scaffold, Wave-2 port lands here
+# kotoba-lang/atom
+
+Atom syndication feed builders.
+
+Namespaces:
+
+- `atom.core`
+- `kotoba.atom`
+
+## Test
+
+```sh
+clojure -M:test
+```
