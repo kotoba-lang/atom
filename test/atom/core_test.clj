@@ -3,7 +3,7 @@
    entry/feed builders (property map → child elements, link → <link href/>, author → <author><name>),
    the <feed xmlns> + <?xml?> wrapper, and absent-key omission. xmllint validates the output in `bb gate`."
   (:require [clojure.test :refer [deftest is]]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [kotoba.atom :as atom]))
 
 (deftest entry-builder
